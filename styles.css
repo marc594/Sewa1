@@ -1,0 +1,147 @@
+/* Global Reset and Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and General Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark background */
+    color: #fff;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px;
+    transition: background-color 0.3s ease;
+}
+
+/* Header Styling */
+header {
+    background-color: #e74c3c; /* Red */
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+header h1 {
+    font-size: 3.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+header p {
+    font-size: 1.8rem;
+    color: #fff;
+    font-style: italic;
+}
+
+/* Main Section Styling */
+main {
+    width: 100%;
+    max-width: 1000px;
+    padding: 30px;
+    background-color: #333;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Section Titles */
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f39c12; /* Yellow */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Button Styling for Skills and Interests */
+button {
+    background-color: #3498db; /* Blue */
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    margin: 15px 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: translateY(-3px);
+}
+
+/* Buttons for Interest Categories */
+.category-btn {
+    background-color: #f39c12; /* Yellow */
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    margin: 8px;
+    transition: all 0.3s ease;
+}
+
+.category-btn:hover {
+    background-color: #f1c40f;
+    transform: translateY(-3px);
+}
+
+/* Skills Container Styling */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Interest Details Section */
+#interest-detail, #skills-detail {
+    margin-top: 30px;
+    font-size: 1.3rem;
+    color: #ecf0f1; /* Light Gray */
+    background-color: #555;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Hard and Soft Skills Buttons Styling */
+.skills-btn {
+    background-color: #f39c12; /* Yellow */
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.skills-btn:hover {
+    background-color: #e67e22;
+    transform: translateY(-3px);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #ccc;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .category-btn, .skills-btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+}

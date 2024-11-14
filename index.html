@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marc Sequeira - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Marc Sequeira</h1>
+            <p>A Technophile | Web Developer | Creator</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="overview">
+            <h2>Education</h2>
+            <p>10th and 12th qualified. Passionate about tech and constantly learning.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <button class="skills-btn" onclick="showSkills('hard')">Hard Skills</button>
+                <button class="skills-btn" onclick="showSkills('soft')">Soft Skills</button>
+            </div>
+            <div id="skills-detail"></div>
+        </section>
+
+        <section id="interests">
+            <h2>Interests</h2>
+            <div class="interest-categories">
+                <button class="category-btn" onclick="showInterest('creative')">Creative</button>
+                <button class="category-btn" onclick="showInterest('intellectual')">Intellectual</button>
+                <button class="category-btn" onclick="showInterest('outdoor')">Outdoor</button>
+                <button class="category-btn" onclick="showInterest('social')">Social</button>
+                <button class="category-btn" onclick="showInterest('others')">Others</button>
+            </div>
+            <div id="interest-detail"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Marc Sequeira | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
